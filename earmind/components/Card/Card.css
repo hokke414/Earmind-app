@@ -1,0 +1,47 @@
+.card {
+  border-radius: 16px;
+  padding: 16px;
+  margin: 15px 0;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid #eee;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favButton {
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #bbb;
+  transition: 0.2s;
+}
+
+.favButton.active {
+  color: red;
+}
+
+.favButton:hover {
+  transform: scale(1.2);
+}
