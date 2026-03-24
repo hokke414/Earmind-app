@@ -8,9 +8,10 @@ function Form({ onNext }) {
   const [maxPrice, setMaxPrice] = useState("");
 
   return (
-    <div>
-      <h1>Earmind</h1>
-     <div className="container">
+    <>
+      <div className="header"></div>
+      <div className="container">
+        <h1 className="title">Earmind</h1>
         <h1>条件を選択</h1>
         <div>
           <h2>・タイプ</h2>
@@ -42,14 +43,14 @@ function Form({ onNext }) {
           </label>
         </div>
 
-       <button
-         className="button"
-         onClick={() => onNext({ type, noise, maxPrice })}
-       >
-         検索
-       </button>
-     </div>
-    </div>
+        <button
+          className="button"
+          onClick={() => onNext({ type, noise, maxPrice })}
+        >
+        検索
+        </button>
+      </div>
+    </>
   );
 }
 
