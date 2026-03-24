@@ -13,20 +13,23 @@ const Result = ({ filters, onBack }) => {
   });
 
   return (
-    <div className="container">
-      <button className="backButton" onClick={onBack}>
-        ← 戻る
-      </button>
+    <div>
+      <h1>Earmind</h1>
+      <div className="container">
+        <button className="backButton" onClick={onBack}>
+          ← 戻る
+        </button>
 
-      <h2 className="sectionTitle">おすすめ</h2>
+        <h2 className="sectionTitle">おすすめ</h2>
 
-      <div className="resultList">
-        {filteredItems.map((item) => (
-          <Card
-            key={item.id || item.name}
-            item={item}
-          />
-        ))}
+        <div className="resultList">
+          {filteredItems.map((item) => (
+            <Card
+              key={item.id || item.name}
+              item={item}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

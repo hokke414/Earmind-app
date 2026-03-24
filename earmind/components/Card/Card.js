@@ -1,6 +1,6 @@
 import "components/Card/Card.css";
 
-function Card({ item, isSelected, isFavorite, onClick, onFavorite }) {
+function Card({ item, isSelected, onClick}) {
   return (
     <div
       className={`card ${isSelected ? "selected" : ""}`}
@@ -10,16 +10,6 @@ function Card({ item, isSelected, isFavorite, onClick, onFavorite }) {
 
       <div className="cardHeader">
         <h2>{item.name}</h2>
-
-        <button
-          className={`favButton ${isFavorite ? "active" : ""}`}
-          onClick={(e) => {
-            e.stopPropagation(); // カードクリック防止
-            onFavorite();
-          }}
-        >
-          ♥
-        </button>
       </div>
 
       <p>{item.price}円</p>

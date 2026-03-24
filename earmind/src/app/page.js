@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      {showResult ? (
+         {showResult ? (
         <Result
           filters={filters}
           onBack={() => setShowResult(false)}

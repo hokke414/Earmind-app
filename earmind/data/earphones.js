@@ -6,7 +6,7 @@ export const earphones = [
     price: 39800,
     type: "wireless",
     noise: true,
-    image: "https://via.placeholder.com/150?text=AirPods+Pro"
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const earphones = [
     price: 36000,
     type: "wireless",
     noise: true,
-    image: "https://via.placeholder.com/150?text=Sony+XM5"
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const earphones = [
     price: 15000,
     type: "wireless",
     noise: true,
-    image: "https://via.placeholder.com/150?text=Anker+L4"
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   },
   {
     id: 4,
@@ -33,6 +33,6 @@ export const earphones = [
     price: 12000,
     type: "wireless",
     noise: true,
-    image: "https://via.placeholder.com/150?text=JBL+230NC"
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
   }
 ];
