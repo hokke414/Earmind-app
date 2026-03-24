@@ -2,15 +2,7 @@
   max-width: 600px;
   margin: auto;
   padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  font-size: larger;
-}
-
-h2 {
-  margin-top: 20px;
+  border: thin solid black;
 }
 
 .sectionTitle {
@@ -24,4 +16,17 @@ h2 {
   text-align: center;
   color: #888;
   margin: 20px 0;
+}
+
+.header {
+  margin-top:20px;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+}
+
+.footer{
+  margin-bottom: 20px;
 }

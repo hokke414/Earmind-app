@@ -13,9 +13,10 @@ const Result = ({ filters, onBack }) => {
   });
 
   return (
-    <div>
-      <h1>Earmind</h1>
+    <>
+      <div className="header"></div>
       <div className="container">
+        <h1 className="title">Earmind</h1>
         <button className="backButton" onClick={onBack}>
           ← 戻る
         </button>
@@ -31,7 +32,8 @@ const Result = ({ filters, onBack }) => {
           ))}
         </div>
       </div>
-    </div>
+      <div className="footer"></div>
+    </>
   );
 };
 
